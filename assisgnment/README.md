@@ -13,7 +13,7 @@ USN: N/A
 - [Mission 4](mission-04-programs/README.md):completed
 - [Mission 5](mission-05-numbers-data/README.md):completed
 - [Mission 6](mission-06-git-github/README.md):completed
-- [Mission 7](mission-07-networking/README.md): not started
+- [Mission 7](mission-07-networking/README.md):completed
 - [Mission 8](mission-08-final-report/README.md): not started
 
 ## My Learning
