@@ -15,3 +15,9 @@ USN: N/A
 - [Mission 6](mission-06-git-github/README.md): not started
 - [Mission 7](mission-07-networking/README.md): not started
 - [Mission 8](mission-08-final-report/README.md): not started
+
+## My Learning
+
+- The operating system manages processes, memory, devices, files and permissions.
+- Python is run by an interpreter, and numbers can be written in decimal, binary or hexadecimal.
+- Git saves versions of my work, and branches let me try changes without breaking main.
