@@ -1,6 +1,12 @@
-# Mission 3: Understand the operating system
+# Mission 3 — Understand the operating system
 
-## Task 3.1: Explore your operating system
+## 1. Task / objective
+
+Explore the operating system, running processes, storage, paths and file permissions, and describe the OS responsibilities.
+
+## 2. Work completed
+
+### Task 3.1: Explore your operating system
 
 Commands used: `uname -sr`, `cat /etc/os-release` (on Mac: `sw_vers`), `whoami`, `df -h /`, `ps aux | head -n 6`
 
@@ -11,7 +17,7 @@ Commands used: `uname -sr`, `cat /etc/os-release` (on Mac: `sw_vers`), `whoami`,
 | Available and used storage | How big the drive is, how much is used and how much is free | About 23% of the drive is used, the rest is free |
 | System activity snapshot | Which programs (processes) are running right now | About 80 processes running, like the shell, system workers and the terminal itself |
 
-## Task 3.2: Understand processes
+### Task 3.2: Understand processes
 
 Command used: `ps aux` (I also opened a browser and a text editor and then looked at the list again, and in Activity Monitor on Mac).
 
@@ -21,16 +27,16 @@ Command used: `ps aux` (I also opened a browser and a text editor and then looke
   1. The web browser (application I opened myself)
   2. A background system process, like the system init process (PID 1) or the Finder / file indexing service
 
-## Task 3.3: Understand paths and permissions
+### Task 3.3: Understand paths and permissions
 
 Commands used: `pwd`, `cd mission-03-operating-system`, `pwd`, `cd ..`, `ls -l notes.txt`
 
 Observation: when I moved into the subfolder, `pwd` showed the same path with `/mission-03-operating-system` added at the end. After `cd ..` it went back to the assignment folder.
 
 - **Absolute path:** the full path starting from the root `/`. It works from anywhere.
-  Example: `/home/[redacted]/digital-detective-8515/assisgnment/notes.txt`
+  Example: `/Users/[redacted]/digital-detective-8515/mission-02-terminal/notes.txt`
 - **Relative path:** a path starting from the folder I am in right now.
-  Example: `mission-03-operating-system/README.md` (from inside the assignment folder) or `../notes.txt` (from inside a mission folder)
+  Example: `mission-03-operating-system/README.md` (from the repository folder) or `../mission-02-terminal/notes.txt` (from inside another mission folder)
 
 Detailed listing of a file:
 
@@ -47,7 +53,7 @@ So the **owner can read and write** the file but **cannot execute** it. Others c
 | w - Write | Allows a file to be changed | Editing a text file |
 | x - Execute | Allows a file to be run; on a directory, allows access/traversal | Running a script |
 
-## Task 3.4: Explain operating-system responsibilities
+### Task 3.4: Explain operating-system responsibilities
 
 | OS responsibility | My explanation | Example |
 |---|---|---|
@@ -58,14 +64,27 @@ So the **owner can read and write** the file but **cannot execute** it. Others c
 | User interface / shell | The OS gives us a way to talk to the computer, either a GUI with windows and icons or a shell where we type commands | Using Terminal to type `ls`, or clicking icons in Finder |
 | Security and permissions | The OS controls who can log in and who can read, write or run each file | notes.txt can be edited by its owner but only read by others |
 
-## Tools and commands used
+## 3. Commands / tools used
 
 Terminal, VS Code, Git. Commands: `uname`, `whoami`, `df -h`, `ps aux`, `pwd`, `cd`, `ls -l`.
 
-## What I understood
+## 4. My understanding
 
 The operating system is the manager of the computer. It runs processes, gives them memory, talks to devices, keeps files organised and decides who is allowed to do what. Every running program is a process with its own PID, and every file has permissions for the owner, group and others. Absolute paths start from the root and relative paths start from where I am.
 
-## Difficulty faced
+## 5. Difficulties faced
 
 Reading the permission letters like `-rw-r--r--` was confusing at first, until I split them into three groups of three.
+
+## 6. How I resolved them
+
+Not applicable — I just read the permissions slowly, group by group, until I understood which letters belong to the owner.
+
+## 7. Evidence / files
+
+- `README.md` (this file) with the OS table, process notes, path and permission examples, and the OS responsibilities table.
+- Usernames and device names are replaced with [redacted].
+
+## 8. Commit details
+
+Commit message: `Document operating system and file management` — pushed to GitHub.

@@ -1,6 +1,12 @@
-# Mission 1: Know your computer
+# Mission 1 — Know your computer
 
-## Task 1.1: Trace one activity using IPOS
+## 1. Task / objective
+
+Understand the IPOS cycle (Input, Processing, Output, Storage), tell hardware from software, and identify computer systems around me.
+
+## 2. Work completed
+
+### Task 1.1: Trace one activity using IPOS
 
 Activity: typing and saving a document.
 
@@ -13,7 +19,7 @@ Activity: typing and saving a document.
 
 How the activity moves: the keyboard sends my typing in, the CPU and RAM process it, the screen shows it, and saving puts the file on the SSD so it stays after shutdown.
 
-## Task 1.2: Identify hardware and software
+### Task 1.2: Identify hardware and software
 
 | Item or software name | Hardware or software? | Software type (if applicable) | Purpose |
 |---|---|---|---|
@@ -26,7 +32,7 @@ How the activity moves: the keyboard sends my typing in, the CPU and RAM process
 | Chrome | Software | Application software | Used to browse the web |
 | Windows Defender | Software | Utility software | Protects the computer from viruses |
 
-## Task 1.3: Computer systems around you
+### Task 1.3: Computer systems around you
 
 | System | Main purpose | One input | One output |
 |---|---|---|---|
@@ -34,14 +40,29 @@ How the activity moves: the keyboard sends my typing in, the CPU and RAM process
 | Smart TV | Plays videos and shows | Remote control button press | Picture and sound |
 | Traffic signal | Controls the flow of vehicles | Timer or road sensor | Red, yellow or green light |
 
-## Tools and commands used
+## 3. Commands / tools used
 
-VS Code to write this file, and Git to save it.
+| Command / tool | Purpose |
+|---|---|
+| VS Code | To write this file |
+| Git (`git add`, `git commit`, `git push`) | To save the work and upload it to GitHub |
 
-## What I understood
+## 4. My understanding
 
-every computer system takes input, processes it, gives output and stores data. Hardware is the physical parts, and software is the programs that run on them. There are three kinds of software: operating system, application and utility.
+Every computer system takes input, processes it, gives output and stores data. Hardware is the physical parts, and software is the programs that run on them. There are three kinds of software: operating system, application and utility.
 
-## Difficulty faced
+## 5. Difficulties faced
 
-NO Difficulty faced till now.
+No major difficulties.
+
+## 6. How I resolved them
+
+Not applicable.
+
+## 7. Evidence / files
+
+- `README.md` (this file) with the IPOS, hardware/software and computer-systems tables.
+
+## 8. Commit details
+
+Commit message: `Complete computer basics and IPOS mission` — pushed to GitHub.
