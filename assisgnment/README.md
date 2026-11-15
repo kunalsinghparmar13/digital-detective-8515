@@ -9,7 +9,7 @@ USN: N/A
 - [Mission 0](mission-00-setup/README.md):completed
 - [Mission 1](mission-01-computer-basics/README.md):completed
 - [Mission 2](mission-02-terminal/README.md):completed
-- [Mission 3](mission-03-operating-system/README.md): not started
+- [Mission 3](mission-03-operating-system/README.md):completed
 - [Mission 4](mission-04-programs/README.md): not started
 - [Mission 5](mission-05-numbers-data/README.md): not started
 - [Mission 6](mission-06-git-github/README.md): not started
